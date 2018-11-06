@@ -1,0 +1,14 @@
+{
+  "name": "ul-exam-scheduler",
+  "version": "1.0.0",
+  "description": "Node.js script to find mutually free timetable slots for a list of students.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eoin O'Brien <eoinobrien910@gmail.com> (https://github.com/eoin-obrien/)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ul-timetable": "^0.2.0"
+  }
+}
