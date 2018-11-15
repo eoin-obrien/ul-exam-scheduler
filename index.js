@@ -15,7 +15,7 @@ const Day = require('ul-timetable').Day;
  * Globals
  */
 
-const weekPattern = /^([1-9]|1[1-3])$/;     // validates a UL student ID
+const weekPattern = /^([1-9]|1[0-3])$/;     // validates a week number
 const studentIdPattern = /^([0-9]{7,8})$/;  // validates a UL student ID
 const fromHour = 9;                         // first available slot starts at 09:00
 const toHour = 18;                          // last available slot finishes at 18:00
